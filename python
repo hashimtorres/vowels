@@ -2,13 +2,13 @@ while True:
     print("Game write a sentence without woveles word")
     string = input('Enter the word : ')
     string = string.lower()
-    count = 0
     for i in string:
 
        if i == 'a' or i == 'e' or i == 'o' or i == 'u' or i == 'i':
-           print(i)
-           count += 1
+           print('vowels in yuor word')
+           break
 
 
 
-    print(f'number of vovels are:{count}')
+    else:
+       print('it deos'nt have')
